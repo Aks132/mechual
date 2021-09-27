@@ -4,12 +4,13 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
+{% load static %}
 
 <!DOCTYPE html>
 <html lang="zxx">
 
 <head>
-    <title>Corp Group Corporate Category Bootstrap Responsive Web Template | Events :: W3layouts</title>
+    <title>mechual.in</title>
     <!-- Meta tag Keywords -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8" />
@@ -27,12 +28,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- //Meta tag Keywords -->
 
     <!-- Custom-Files -->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
     <!-- Bootstrap-Core-CSS -->
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" media="all" />
     <!-- Style-CSS -->
     <!-- font-awesome-icons -->
-    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="{% static 'css/font-awesome.css' %}" rel="stylesheet">
     <!-- //font-awesome-icons -->
     <!-- /Fonts -->
     <link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,800" rel="stylesheet">
@@ -95,7 +96,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <h3 class="tittle text-center mb-lg-5 mb-3">News & Events</h3>
             <div class="row mt-lg-5 mt-4">
                 <div class="col-md-6 events-img">
-                    <a href="single.html"><img src="images/g1.jpg" class="img-fluid" alt="user-image" /></a>
+                    <a href="single.html"><img src="{% static 'images/g1.jpg' %}" class="img-fluid" alt="user-image" /></a>
                 </div>
                 <div class="col-md-6 events-info">
                     <h3><span class="sub-tittle">01</span> Lorem Ipsum has been</h3>
@@ -120,12 +121,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     </ul>
                 </div>
                 <div class="col-md-6 events-img">
-                    <a href="single.html"><img src="images/g4.jpg" class="img-fluid" alt="user-image" /></a>
+                    <a href="single.html"><img src="{% static 'images/g4.jpg' %}" class="img-fluid" alt="user-image" /></a>
                 </div>
             </div>
             <div class="row mt-lg-5 mt-4">
                 <div class="col-md-6 events-img">
-                    <a href="single.html"><img src="images/g3.jpg" class="img-fluid" alt="user-image" /></a>
+                    <a href="single.html"><img src="{% static 'images/g3.jpg' %}" class="img-fluid" alt="user-image" /></a>
                 </div>
                 <div class="col-md-6 events-info">
                     <h3><span class="sub-tittle">03</span>Lorem Ipsum has been</h3>
@@ -150,7 +151,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     </ul>
                 </div>
                 <div class="col-md-6 events-img">
-                    <a href="single.html"> <img src="images/g6.jpg" class="img-fluid" alt="user-image" /></a>
+                    <a href="single.html"> <img src="{% static 'images/g6.jpg' %}" class="img-fluid" alt="user-image" /></a>
                 </div>
             </div>
         </div>
